@@ -22,7 +22,7 @@ bool line_splitted = true;
 
 int max_amps = 21; //corrente massima della linea in Ampere
 int min_amps = 5; //corrente minima
-int hysteresis = 3;
+int hysteresis = 3; //isteresi
 
 unsigned long loop_interval = 50; //intervallo di ripetizioni in ms del loop principale (funzionalità base della evcc)
 unsigned long reg_interval = 30000; //intervallo di ripetizioni in ms dell'aggiornamento di corrente dal parte della funzione Smart_reg
